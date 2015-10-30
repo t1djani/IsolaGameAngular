@@ -1,0 +1,58 @@
+'use strict'
+
+angular.module 'rattrapagesRush04App'
+  .controller 'MainCtrl', ( $scope ) ->
+
+    $scope.squares = [
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" },
+      { width: 10, height: 10, color: "orange" }
+    ]
+
+    return

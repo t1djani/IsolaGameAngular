@@ -1,0 +1,19 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+
+// .plateau {
+//   width: 490px;
+//   height: 490px;
+// }
+
+.orange {
+  background-color: orange;
+  width: 80px;
+  height: 80px;
+  border: 1px black solid;
+}
+
+.row {
+  width: 580px;
+  margin: 0 auto;
+}
