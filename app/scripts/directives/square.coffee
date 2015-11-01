@@ -12,7 +12,13 @@ angular.module 'rattrapagesRush04App'
 
     link: ( scope, element, attrs ) ->
       scope.getPions = ->
+        if scope.square.color is "noir" || scope.square.pionNoir is true || scope.square.pionBlanc is true
+          return
+
         if scope.square.pionNoir is undefined and $rootScope.tour is 1 || scope.square.pionNoir is false and $rootScope.tour is 1
+          squareFilter = _( scope.squares ).where { pionNoir: true }
+          squareFilter[0].color = "noir"
+
           for s in scope.squares
             s.pionNoir = false
 
@@ -22,6 +28,9 @@ angular.module 'rattrapagesRush04App'
           return
 
         if scope.square.pionBlanc is undefined and $rootScope.tour is 2 || scope.square.pionBlanc is false and $rootScope.tour is 2
+          squareFilter = _( scope.squares ).where { pionBlanc: true }
+          squareFilter[0].color = "noir"
+
           for s in scope.squares
             s.pionBlanc = false
 
